@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Personal Menu Design</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="Author" content="Wilando Ron Caulin" />
+		<meta name="Description" content="Ron Caulin: Filipino Web Designer for Web, Mobile, and consistent devices" />
+		<meta name="Keyword" content="responsive menu design" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Stysheet -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- Start Navigation-->
+<ul class="nav">
+   <li> <div class="one">
+        <div class="insider1">
+             <ul class="box-1" id="slideUpOne">
+                <li><a href="https://www.facebook.com/RonCaulin"><img src="images/home2.png" height="90" width="83"  alt="" /></a></li>
+                <li><a href="www.facebook.com/RonCaulin"><img src="images/home1.png" height="90" width="83" alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+    </li>
+    <li>
+      <div class="two">
+        <div class="insider2">
+             <ul class="box-2" id="slideUpTwo">
+               <li><a href="www.facebook.com/RonCaulin"><img src="images/blog2.png" height="90" width="83"  alt="" /></a></li>
+                <li><a href="www.facebook.com/RonCaulin"><img src="images/blog1.png" height="90" width="83" alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+     <li> <div class="three">
+        <div class="insider3">
+             <ul class="box-3" id="slideUpThree">
+              <li><a href="www.facebook.com/RonCaulin"><img src="images/about2.png" height="90" width="83" alt="" /></a></li>
+                <li><a href="www.facebook.com/RonCaulin"><img src="images/about1.png" height="90" width="83"  alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+    </li>
+    <li> <div class="four">
+        <div class="insider3">
+             <ul class="box-4" id="slideUpFour">
+              <li><a href="www.facebook.com/RonCaulin"><img src="images/portfolio2.png" height="90" width="83" alt="" /></a></li>
+                <li><a href="www.facebook.com/RonCaulin"><img src="images/portfolio1.png" height="90" width="83"  alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+    </li>
+     <li> <div class="five">
+        <div class="insider3">
+             <ul class="box-5" id="slideUpFive">
+              <li><a href="www.facebook.com/RonCaulin"><img src="images/contact2.png" height="90" width="83"  alt="" /></a></li>
+                <li><a href="www.facebook.com/RonCaulin"><img src="images/contact1.png" height="90" width="83"  alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+    </li>
+    <div class="clear"></div>
+    </li>
+</ul>
+
+  <!-- End of navigation-->
+
+  
+        <!-- Start of Script -->
+    <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="js/SlideUpMenu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+          
+            $("#slideUpOne").SlideUpMenu({
+                dataheight: 100
+            });
+              $("#slideUpTwo").SlideUpMenu({
+                dataheight: 100
+            });
+                $("#slideUpThree").SlideUpMenu({
+                dataheight: 100
+            });
+                $("#slideUpFour").SlideUpMenu({
+                dataheight: 100
+            });
+                   $("#slideUpFive").SlideUpMenu({
+                dataheight: 100
+            });
+        });
+    </script>
+    <!--End of Script-->
+</body>
+</html>
+

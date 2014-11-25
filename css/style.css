@@ -1,0 +1,154 @@
+﻿/*
+  Author: Wilando Ron Caulin
+  Date Created: September 30, 2014
+  Project Name: Responsive Menu Design
+*/
+
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  background:url(../images/bgdesign.jpg) no-repeat center center;
+  background-size:cover;
+  position:absolute;
+
+}
+
+
+/* Box Menu*/
+ul.nav{
+
+  float:right;
+  /*margin-left: 50px;*/
+  margin-top:10px;
+  margin-right: 5%; 
+  list-style:none;
+  
+}
+
+ul.nav li{
+  
+  float:left;
+  margin-right:-15px;
+  
+}
+
+.clear{
+  clear:both;
+}
+
+/*-- Start Navigation --*/
+
+.one
+{
+    width:90px;
+    height:100px;
+    overflow:hidden;
+}
+
+.insider1
+{
+  
+}
+
+ul.box-1
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+
+
+
+.two
+{
+    width:90px;
+    height:100px;
+    overflow:hidden;
+}
+
+.insider2
+{
+  width:; 
+  float: right;
+}
+
+ul.box-2
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+
+
+
+.three
+{
+    width:90px;
+    height:100px;
+    overflow:hidden;
+}
+
+.insider3
+{
+  width:; 
+  float: right;
+}
+
+ul.box-3
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.four
+{
+    width:90px;
+    height:100px;
+    overflow:hidden;
+}
+
+.insider3
+{
+  width:; 
+  float: right;
+}
+
+ul.box-4
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.five
+{
+    width:90px;
+    height:100px;
+    overflow:hidden;
+}
+
+.insider3
+{
+  width:; 
+  float: right;
+}
+
+ul.box-5
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.clear
+{
+    clear:both;
+}
+/* footer */
+
